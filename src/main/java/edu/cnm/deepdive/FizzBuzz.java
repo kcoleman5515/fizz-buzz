@@ -10,8 +10,7 @@ public class FizzBuzz {
   public static void main(String[] args) {
     int limit = (args.length > 0) ? Integer.parseInt(args[0]) : DEFAULT_LIMIT;
     FizzBuzz fb = new FizzBuzz();
-    for (int i = 1; i <= limit
-        ; i++) {
+    for (int i = 1; i <= limit; i++) {
       System.out.println(fb.check(i));
     }
   }
